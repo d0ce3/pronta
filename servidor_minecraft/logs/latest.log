@@ -1,0 +1,108 @@
+[00:00:32] [Netty Epoll Server IO #1/INFO]: Mixing server.MixinServerboundChatCommandPacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_7472
+[00:00:32] [Netty Epoll Server IO #1/INFO]: Mixing server.MixinServerboundChatPacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_2797
+[00:00:32] [Netty Epoll Server IO #1/INFO]: Mixing server.MixinServerboundChatSessionUpdatePacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_7861
+[00:01:03] [Server thread/INFO]: [Handshake] Sending channel query
+[00:01:03] [Netty Epoll Server IO #3/INFO]: [Handshake] Receiving client channels
+[00:01:03] [Netty Epoll Server IO #3/INFO]: [Handshake] Handshake completed successfully
+[00:01:03] [Server thread/INFO]: d0ce3_[/100.93.24.83:51031] logged in with entity id 65 at (-1420.658318469226, 65.0, 238.69999998807907)
+[00:01:03] [Server thread/INFO]: Sending server config values to client
+[00:01:04] [Server thread/INFO]: Syncing config to d0ce3_ (54069e65-d697-3049-9cfd-44262b1466bb)
+[00:01:04] [Server thread/INFO]: Loading config from file...
+[00:01:05] [Server thread/INFO]: [STDOUT]: Splitting recipes into 10 packets
+[00:01:05] [Server thread/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[00:01:05] [Server thread/INFO]: [voicechat] Using Fabric Permissions API
+[00:01:06] [Server thread/INFO]: d0ce3_ joined the game
+[00:01:06] [Server thread/INFO]: Loading Configs for Sortilege
+[00:01:06] [Server thread/INFO]: Couldn't find config value for path : "[enchantments, enchant_catalyst, show_in_tooltip]", defaulting to true
+[00:01:06] [Server thread/INFO]: Couldn't find config value for path : "[enchantments, enabled_enchants]", defaulting to {}
+[00:01:06] [Server thread/INFO]: Couldn't find config value for path : "[death, xp_keeping, stolen_xp_data]", defaulting to 41
+[00:01:06] [Server thread/INFO]: Couldn't find config value for path : "[death, glowing_killer]", defaulting to true
+[00:01:06] [Server thread/INFO]: PLAYER_JOIN
+[00:01:06] [Server thread/INFO]: add_player wand
+[00:01:06] [Server thread/INFO]: config sent
+[00:01:06] [Server thread/INFO]: Player d0ce3_ just logged in with id 54069e65-d697-3049-9cfd-44262b1466bb
+[00:01:06] [ForkJoinPool-4-worker-1/INFO]: Loading local skin for player d0ce3_[54069e65-d697-3049-9cfd-44262b1466bb]
+[00:01:06] [ForkJoinPool-4-worker-1/INFO]: Loading local cape for player d0ce3_[54069e65-d697-3049-9cfd-44262b1466bb]
+[00:01:06] [Server thread/INFO]: Updating all forceload tickets for 54069e65-d697-3049-9cfd-44262b1466bb
+[00:01:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2894ms or 57 ticks behind
+[00:01:08] [Netty Epoll Server IO #3/INFO]: Receiving client config
+[00:01:10] [Server thread/INFO]: [STDOUT]: Finalizing fluid item registration
+[00:01:10] [Server thread/INFO]: [STDOUT]: Finalizing fluid block registration
+[00:01:11] [Netty Epoll Server IO #3/INFO]: Channel update: d0ce3_ -> default
+[00:01:11] [Netty Epoll Server IO #3/INFO]: Priority overwritten for player d0ce3_. Claiming: GRAVE / Robbing: INVENTORY
+[00:01:12] [Server thread/INFO]: [voicechat] Received secret request of d0ce3_ (18)
+[00:01:12] [Server thread/INFO]: [voicechat] Sent secret to d0ce3_
+[00:01:15] [Netty Epoll Server IO #3/INFO]: [do_a_barrel_roll] Client of d0ce3_ accepted server config.
+[00:01:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5359ms or 107 ticks behind
+[00:01:35] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 54069e65-d697-3049-9cfd-44262b1466bb
+[00:01:36] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 54069e65-d697-3049-9cfd-44262b1466bb
+[00:01:36] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player d0ce3_ (54069e65-d697-3049-9cfd-44262b1466bb) successfully connected to voice chat
+[00:02:33] [Server thread/INFO]: [STDOUT]: Finalizing energy block registration
+[00:02:42] [Server thread/ERROR]: Caught unhandled exception : [null] java.lang.ClassCastException: class fuzs.enchantinginfuser.world.level.block.entity.InfuserBlockEntity cannot be cast to class dev.shadowsoffire.apotheosis.ench.table.ApothEnchantTile (fuzs.enchantinginfuser.world.level.block.entity.InfuserBlockEntity and dev.shadowsoffire.apotheosis.ench.table.ApothEnchantTile are in unnamed module of loader 'knot' @396a51ab)
+[00:02:42] [Server thread/ERROR]: See JadeErrorOutput.txt for more information
+[00:02:42] [Server thread/ERROR]: 
+java.lang.ClassCastException: class fuzs.enchantinginfuser.world.level.block.entity.InfuserBlockEntity cannot be cast to class dev.shadowsoffire.apotheosis.ench.table.ApothEnchantTile (fuzs.enchantinginfuser.world.level.block.entity.InfuserBlockEntity and dev.shadowsoffire.apotheosis.ench.table.ApothEnchantTile are in unnamed module of loader 'knot' @396a51ab)
+	at net.fabricmc.fabric.api.lookup.v1.block.BlockApiLookup.lambda$registerForBlockEntity$0(BlockApiLookup.java:221) ~[fabric-api-lookup-api-v1-1.6.37+1802ada577-faca8fadfcc7d5d3.jar:?]
+	at net.fabricmc.fabric.impl.lookup.block.BlockApiLookupImpl.lambda$registerForBlockEntities$1(BlockApiLookupImpl.java:160) ~[fabric-api-lookup-api-v1-1.6.37+1802ada577-faca8fadfcc7d5d3.jar:?]
+	at net.fabricmc.fabric.impl.lookup.block.BlockApiLookupImpl.find(BlockApiLookupImpl.java:90) ~[fabric-api-lookup-api-v1-1.6.37+1802ada577-faca8fadfcc7d5d3.jar:?]
+	at snownee.jade.util.CommonProxy.createItemStorageCache(CommonProxy.java:190) ~[Jade-1.20-Fabric-11.13.1.jar:?]
+	at snownee.jade.addon.universal.ItemStorageProvider.lambda$getGroups$3(ItemStorageProvider.java:261) ~[Jade-1.20-Fabric-11.13.1.jar:?]
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4868) ~[guava-31.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3533) ~[guava-31.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2282) ~[guava-31.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2159) ~[guava-31.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2049) ~[guava-31.1-jre.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3966) ~[guava-31.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4863) ~[guava-31.1-jre.jar:?]
+	at snownee.jade.addon.universal.ItemStorageProvider.getGroups(ItemStorageProvider.java:261) ~[Jade-1.20-Fabric-11.13.1.jar:?]
+	at snownee.jade.addon.universal.ItemStorageProvider.putData(ItemStorageProvider.java:182) ~[Jade-1.20-Fabric-11.13.1.jar:?]
+	at snownee.jade.addon.universal.ItemStorageProvider.appendServerData(ItemStorageProvider.java:228) ~[Jade-1.20-Fabric-11.13.1.jar:?]
+	at snownee.jade.addon.universal.ItemStorageProvider.appendServerData(ItemStorageProvider.java:54) ~[Jade-1.20-Fabric-11.13.1.jar:?]
+	at snownee.jade.impl.BlockAccessorImpl.lambda$handleRequest$0(BlockAccessorImpl.java:74) ~[Jade-1.20-Fabric-11.13.1.jar:?]
+	at net.minecraft.server.ServerTask.run(ServerTask.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:156) ~[server-intermediary.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.executeTask(MinecraftServer.java:782) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.executeTask(MinecraftServer.java:164) ~[server-intermediary.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.runOneTask(MinecraftServer.java:764) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.runTask(MinecraftServer.java:758) ~[server-intermediary.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:139) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.mixinextras$bridge$method_18857$297(MinecraftServer.java) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.wrapOperation$fjp000$modernfix$managedBlock(MinecraftServer.java:1823) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.runTasksTillTickEnd(MinecraftServer.java:743) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:675) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[00:02:45] [Server thread/INFO]: [STDOUT]: Finalizing energy item registration
+[00:02:48] [Server thread/ERROR]: Caught unhandled exception : [INSTANCE] java.lang.ClassCastException: class fuzs.enchantinginfuser.world.level.block.entity.InfuserBlockEntity cannot be cast to class dev.shadowsoffire.apotheosis.ench.table.ApothEnchantTile (fuzs.enchantinginfuser.world.level.block.entity.InfuserBlockEntity and dev.shadowsoffire.apotheosis.ench.table.ApothEnchantTile are in unnamed module of loader 'knot' @396a51ab)
+[00:02:48] [Server thread/ERROR]: See JadeErrorOutput.txt for more information
+[00:02:48] [Server thread/ERROR]: 
+java.lang.ClassCastException: class fuzs.enchantinginfuser.world.level.block.entity.InfuserBlockEntity cannot be cast to class dev.shadowsoffire.apotheosis.ench.table.ApothEnchantTile (fuzs.enchantinginfuser.world.level.block.entity.InfuserBlockEntity and dev.shadowsoffire.apotheosis.ench.table.ApothEnchantTile are in unnamed module of loader 'knot' @396a51ab)
+	at net.fabricmc.fabric.api.lookup.v1.block.BlockApiLookup.lambda$registerForBlockEntity$0(BlockApiLookup.java:221) ~[fabric-api-lookup-api-v1-1.6.37+1802ada577-faca8fadfcc7d5d3.jar:?]
+	at net.fabricmc.fabric.impl.lookup.block.BlockApiLookupImpl.lambda$registerForBlockEntities$1(BlockApiLookupImpl.java:160) ~[fabric-api-lookup-api-v1-1.6.37+1802ada577-faca8fadfcc7d5d3.jar:?]
+	at net.fabricmc.fabric.impl.lookup.block.BlockApiLookupImpl.find(BlockApiLookupImpl.java:90) ~[fabric-api-lookup-api-v1-1.6.37+1802ada577-faca8fadfcc7d5d3.jar:?]
+	at snownee.jade.util.JadeFabricUtils.lambda$fromItemStorage$1(JadeFabricUtils.java:67) ~[Jade-1.20-Fabric-11.13.1.jar:?]
+	at snownee.jade.util.JadeFabricUtils.lambda$fromItemStorage$2(JadeFabricUtils.java:76) ~[Jade-1.20-Fabric-11.13.1.jar:?]
+	at snownee.jade.addon.universal.ItemIterator.find(ItemIterator.java:26) ~[Jade-1.20-Fabric-11.13.1.jar:?]
+	at snownee.jade.addon.universal.ItemCollector.update(ItemCollector.java:47) ~[Jade-1.20-Fabric-11.13.1.jar:?]
+	at snownee.jade.addon.universal.ItemStorageProvider.getGroups(ItemStorageProvider.java:269) ~[Jade-1.20-Fabric-11.13.1.jar:?]
+	at snownee.jade.addon.universal.ItemStorageProvider.putData(ItemStorageProvider.java:182) ~[Jade-1.20-Fabric-11.13.1.jar:?]
+	at snownee.jade.addon.universal.ItemStorageProvider.appendServerData(ItemStorageProvider.java:228) ~[Jade-1.20-Fabric-11.13.1.jar:?]
+	at snownee.jade.addon.universal.ItemStorageProvider.appendServerData(ItemStorageProvider.java:54) ~[Jade-1.20-Fabric-11.13.1.jar:?]
+	at snownee.jade.impl.BlockAccessorImpl.lambda$handleRequest$0(BlockAccessorImpl.java:74) ~[Jade-1.20-Fabric-11.13.1.jar:?]
+	at net.minecraft.server.ServerTask.run(ServerTask.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:156) ~[server-intermediary.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.executeTask(MinecraftServer.java:782) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.executeTask(MinecraftServer.java:164) ~[server-intermediary.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.runOneTask(MinecraftServer.java:764) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.runTask(MinecraftServer.java:758) ~[server-intermediary.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:139) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.mixinextras$bridge$method_18857$297(MinecraftServer.java) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.wrapOperation$fjp000$modernfix$managedBlock(MinecraftServer.java:1823) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.runTasksTillTickEnd(MinecraftServer.java:743) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:675) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
