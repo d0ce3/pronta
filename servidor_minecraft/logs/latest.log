@@ -155,3 +155,59 @@ java.lang.ClassCastException: class fuzs.enchantinginfuser.world.level.block.ent
 [00:45:16] [Server thread/INFO]: d0ce3_ has made the advancement [A glorious Past]
 [00:45:37] [Worker-Main-3/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/14207, l='ServerLevel[world]', x=349.00, y=31.00, z=373.00] as it would cause deadlock
 [00:45:37] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_4985['Strider'/14210, l='ServerLevel[world]', x=349.00, y=31.00, z=373.00] as it would cause deadlock
+[00:47:51] [Server thread/INFO]: d0ce3_ has reached the goal [Embers of the Nether]
+[00:49:40] [Server thread/INFO]: d0ce3_ was slain by Wither Skeleton
+[00:49:40] [Server thread/INFO]: Created new backpack backup file for d0ce3_ with unique ID travelersbackpack.standard_17.08.2025-00.49.40.dat
+[00:49:56] [Netty Epoll Server IO #3/INFO]: [do_a_barrel_roll] Client of d0ce3_ accepted server config.
+[00:50:30] [Netty Epoll Server IO #3/INFO]: [do_a_barrel_roll] Client of d0ce3_ accepted server config.
+[00:50:33] [Server thread/INFO]: d0ce3_ claimed a grave belonging to d0ce3_ at 167, 59, 309, minecraft:the_nether
+[00:50:34] [Server thread/INFO]: d0ce3_ was slain by Wither Skeleton
+[00:50:34] [Server thread/INFO]: Created new backpack backup file for d0ce3_ with unique ID travelersbackpack.standard_17.08.2025-00.50.34.dat
+[00:50:36] [Netty Epoll Server IO #3/INFO]: [do_a_barrel_roll] Client of d0ce3_ accepted server config.
+[00:51:20] [Netty Epoll Server IO #3/INFO]: [do_a_barrel_roll] Client of d0ce3_ accepted server config.
+[00:51:22] [Server thread/INFO]: d0ce3_ claimed a grave belonging to d0ce3_ at 169, 54, 311, minecraft:the_nether
+[00:51:24] [Server thread/INFO]: d0ce3_ was slain by Wither Skeleton
+[00:51:24] [Server thread/INFO]: Created new backpack backup file for d0ce3_ with unique ID travelersbackpack.standard_17.08.2025-00.51.24.dat
+[00:51:25] [Netty Epoll Server IO #3/INFO]: [do_a_barrel_roll] Client of d0ce3_ accepted server config.
+[00:52:00] [Netty Epoll Server IO #3/INFO]: [do_a_barrel_roll] Client of d0ce3_ accepted server config.
+[00:52:02] [Server thread/INFO]: d0ce3_ was slain by Wither Skeleton
+[00:52:05] [Netty Epoll Server IO #3/INFO]: [do_a_barrel_roll] Client of d0ce3_ accepted server config.
+[00:52:37] [Netty Epoll Server IO #3/INFO]: [do_a_barrel_roll] Client of d0ce3_ accepted server config.
+[00:52:43] [Server thread/INFO]: d0ce3_ claimed a grave belonging to d0ce3_ at 169, 56, 311, minecraft:the_nether
+[00:53:20] [Server thread/INFO]: d0ce3_ was slain by Wither Skeleton
+[00:53:26] [Netty Epoll Server IO #3/INFO]: [do_a_barrel_roll] Client of d0ce3_ accepted server config.
+[00:53:31] [Server thread/WARN]: Player ability minecraft:invulnerable was updated externally (expected disabled, was enabled).
+java.lang.RuntimeException: stacktrace
+	at io.github.ladysnake.pal.impl.PalInternals.logTamperWarning(PalInternals.java:63) ~[playerabilitylib-1.8.0-4683a0cc11f08713.jar:?]
+	at io.github.ladysnake.pal.impl.VanillaAbilityTracker.checkConflict(VanillaAbilityTracker.java:71) ~[playerabilitylib-1.8.0-4683a0cc11f08713.jar:?]
+	at net.minecraft.server.network.ServerPlayerEntity.handler$gpi000$playerabilitylib$checkAbilityConsistency(ServerPlayerEntity.java:23424) ~[server-intermediary.jar:?]
+	at net.minecraft.server.network.ServerPlayerEntity.sendAbilitiesUpdate(ServerPlayerEntity.java:1323) ~[server-intermediary.jar:?]
+	at dev.ftb.mods.ftbessentials.command.CheatCommands.lambda$god$26(CheatCommands.java:279) ~[ftb-essentials-fabric-2001.2.3.jar:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at dev.ftb.mods.ftbessentials.command.CheatCommands.god(CheatCommands.java:266) ~[ftb-essentials-fabric-2001.2.3.jar:?]
+	at dev.ftb.mods.ftbessentials.command.CheatCommands.lambda$register$11(CheatCommands.java:115) ~[ftb-essentials-fabric-2001.2.3.jar:?]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264) ~[brigadier-1.1.8.jar:?]
+	at net.minecraft.server.command.CommandManager.redirect$zpb000$architectury$performCommand(CommandManager.java:1545) ~[server-intermediary.jar:?]
+	at net.minecraft.server.command.CommandManager.execute(CommandManager.java:287) ~[server-intermediary.jar:?]
+	at net.minecraft.server.network.ServerPlayNetworkHandler.handleCommandExecution(ServerPlayNetworkHandler.java:1341) ~[server-intermediary.jar:?]
+	at net.minecraft.server.network.ServerPlayNetworkHandler.method_44356(ServerPlayNetworkHandler.java:1321) ~[server-intermediary.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.method_5386(ThreadExecutor.java:67) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.ServerTask.run(ServerTask.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:156) ~[server-intermediary.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.executeTask(MinecraftServer.java:782) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.executeTask(MinecraftServer.java:164) ~[server-intermediary.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.runOneTask(MinecraftServer.java:764) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.runTask(MinecraftServer.java:758) ~[server-intermediary.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:115) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.runTasksTillTickEnd(MinecraftServer.java:742) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:675) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[00:54:03] [Netty Epoll Server IO #3/INFO]: [do_a_barrel_roll] Client of d0ce3_ accepted server config.
+[00:54:05] [Server thread/INFO]: d0ce3_ claimed a grave belonging to d0ce3_ at 165, 54, 311, minecraft:the_nether
+[00:54:26] [Server thread/INFO]: d0ce3_ claimed a grave belonging to d0ce3_ at 166, 59, 308, minecraft:the_nether
+[00:56:06] [Netty Epoll Server IO #3/INFO]: [do_a_barrel_roll] Client of d0ce3_ accepted server config.
+[00:56:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5906ms or 118 ticks behind

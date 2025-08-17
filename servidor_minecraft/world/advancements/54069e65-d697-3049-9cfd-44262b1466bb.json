@@ -15745,6 +15745,7 @@
   },
   "betternether:nether_wood": {
     "criteria": {
+      "got_nether_reed": "2025-08-17 00:46:45 +0000",
       "got_nether_mushroom": "2025-07-12 04:38:11 +0000"
     },
     "done": false
@@ -22926,11 +22927,107 @@
     },
     "done": true
   },
+  "betternether:recipes/redstone/bone_reed_door": {
+    "criteria": {
+      "has_nether_reed_planks": "2025-08-17 00:46:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:soul_sand_valley": "2025-08-17 00:36:47 +0000"
     },
     "done": false
+  },
+  "supplementaries:recipes/decorations/betternether/sign_post_nether_reed": {
+    "criteria": {
+      "has_item": "2025-08-17 00:46:45 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/tools/flaming_ruby_pickaxe": {
+    "criteria": {
+      "has_block.minecraft.sculk_catalyst": "2025-08-17 00:47:53 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/cincinnasite_wall": {
+    "criteria": {
+      "has_cincinnasite_forged": "2025-08-17 00:47:26 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/cincinnasite_forged_roof_tile_cincinnasite": {
+    "criteria": {
+      "has_cincinnasite_forged": "2025-08-17 00:47:26 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/nether_reed_barrel": {
+    "criteria": {
+      "has_nether_reed_planks": "2025-08-17 00:46:45 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/redstone/nether_reed_door": {
+    "criteria": {
+      "has_nether_reed_planks": "2025-08-17 00:46:45 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/cincinnasite_stairs_stonecutting": {
+    "criteria": {
+      "has_block.betternether.cincinnasite_forged": "2025-08-17 00:47:26 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/cincinnasite_wall_stonecutting": {
+    "criteria": {
+      "has_block.betternether.cincinnasite_forged": "2025-08-17 00:47:26 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/cincinnasite_forged_cincinnasite_slab": {
+    "criteria": {
+      "has_cincinnasite_forged": "2025-08-17 00:47:26 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/cincinnasite_carved": {
+    "criteria": {
+      "has_cincinnasite_forged": "2025-08-17 00:47:26 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/nether_reed_crafting_table": {
+    "criteria": {
+      "has_nether_reed_planks": "2025-08-17 00:46:45 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/cincinnasite_pillar": {
+    "criteria": {
+      "has_cincinnasite_forged": "2025-08-17 00:47:26 +0000"
+    },
+    "done": true
+  },
+  "techreborn:recipes/extractor/sculk_from_sculk_catalyst": {
+    "criteria": {
+      "has_sculk_catalyst": "2025-08-17 00:47:53 +0000"
+    },
+    "done": true
+  },
+  "betternether:flaming_ruby": {
+    "criteria": {
+      "flaming_ruby": "2025-08-17 00:47:51 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/cincinnasite_tile_large_stonecutting": {
+    "criteria": {
+      "has_block.betternether.cincinnasite_forged": "2025-08-17 00:47:26 +0000"
+    },
+    "done": true
   },
   "minecraft:nether/distract_piglin": {
     "criteria": {
@@ -22938,9 +23035,208 @@
     },
     "done": true
   },
+  "betternether:recipes/decorations/nether_reed_chest": {
+    "criteria": {
+      "has_nether_reed_planks": "2025-08-17 00:46:45 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/redstone/nether_reed_plate": {
+    "criteria": {
+      "has_nether_reed_planks": "2025-08-17 00:46:45 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/chest_of_drawers": {
+    "criteria": {
+      "has_nether_reed_planks": "2025-08-17 00:46:45 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/combat/flaming_ruby_boots": {
+    "criteria": {
+      "has_block.minecraft.sculk_catalyst": "2025-08-17 00:47:53 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/blast_furnace/gold_nugget_from_sword": {
     "criteria": {
       "has_golden_sword": "2025-08-17 00:35:11 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/misc/nether_reed_wall": {
+    "criteria": {
+      "has_nether_reed_planks": "2025-08-17 00:46:45 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/nether_reed_stairs": {
+    "criteria": {
+      "has_nether_reed_planks": "2025-08-17 00:46:45 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/redstone/cincinnasite_forged_cincinnasite_plate": {
+    "criteria": {
+      "has_cincinnasite_forged": "2025-08-17 00:47:26 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/nether_reed_roof": {
+    "criteria": {
+      "has_nether_reed_planks": "2025-08-17 00:46:45 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/combat/flaming_ruby_leggings": {
+    "criteria": {
+      "has_block.minecraft.sculk_catalyst": "2025-08-17 00:47:53 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/cincinnasite_slab_stonecutting": {
+    "criteria": {
+      "has_block.betternether.cincinnasite_forged": "2025-08-17 00:47:26 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/tools/flaming_ruby_shovel": {
+    "criteria": {
+      "has_block.minecraft.sculk_catalyst": "2025-08-17 00:47:53 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/cincinnasite_roof_tile_stonecutting": {
+    "criteria": {
+      "has_block.betternether.cincinnasite_forged": "2025-08-17 00:47:26 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/tools/flaming_ruby_hoe": {
+    "criteria": {
+      "has_block.minecraft.sculk_catalyst": "2025-08-17 00:47:53 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/combat/flaming_ruby_chestplate": {
+    "criteria": {
+      "has_block.minecraft.sculk_catalyst": "2025-08-17 00:47:53 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/cincinnasite_forged_cincinnasite_stairs": {
+    "criteria": {
+      "has_cincinnasite_forged": "2025-08-17 00:47:26 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/redstone/cincinnasite_brick_plate": {
+    "criteria": {
+      "has_cincinnasite_forged": "2025-08-17 00:47:26 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/redstone/nether_reed_button": {
+    "criteria": {
+      "has_nether_reed_planks": "2025-08-17 00:46:45 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/misc/cincinnasite_ingot": {
+    "criteria": {
+      "has_cincinnasite_forged": "2025-08-17 00:47:26 +0000"
+    },
+    "done": true
+  },
+  "techreborn:recipes/chemical_reactor/sculk_shrieker": {
+    "criteria": {
+      "has_sculk_catalyst": "2025-08-17 00:47:53 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/cincinnasite_tile_small_stonecutting": {
+    "criteria": {
+      "has_block.betternether.cincinnasite_forged": "2025-08-17 00:47:26 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/nether_reed_slab": {
+    "criteria": {
+      "has_nether_reed_planks": "2025-08-17 00:46:45 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/redstone/nether_reed_trapdoor": {
+    "criteria": {
+      "has_nether_reed_planks": "2025-08-17 00:46:45 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/cincinnasite_carved_stonecutting": {
+    "criteria": {
+      "has_block.betternether.cincinnasite_forged": "2025-08-17 00:47:26 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/tools/flaming_ruby_axe": {
+    "criteria": {
+      "has_block.minecraft.sculk_catalyst": "2025-08-17 00:47:53 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/cincinnasite_pedestal": {
+    "criteria": {
+      "has_cincinnasite_forged": "2025-08-17 00:47:26 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/cincinnasite_bricks": {
+    "criteria": {
+      "has_cincinnasite_forged": "2025-08-17 00:47:26 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/cincinnasite_pillar_stonecutting": {
+    "criteria": {
+      "has_block.betternether.cincinnasite_forged": "2025-08-17 00:47:26 +0000"
+    },
+    "done": true
+  },
+  "betternether:city": {
+    "criteria": {
+      "ncity": "2025-08-17 00:45:16 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/transportation/nether_reed_boat": {
+    "criteria": {
+      "has_nether_reed_planks": "2025-08-17 00:46:45 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/combat/flaming_ruby_sword": {
+    "criteria": {
+      "has_block.minecraft.sculk_catalyst": "2025-08-17 00:47:53 +0000"
+    },
+    "done": true
+  },
+  "betternether:recipes/redstone/bone_cin_door": {
+    "criteria": {
+      "has_cincinnasite_forged": "2025-08-17 00:47:26 +0000"
+    },
+    "done": true
+  },
+  "betternether:ruby_gear": {
+    "criteria": {
+      "nether_ruby_EquipmentSlot[name\u003dboots, category\u003dCOMBAT]": "2025-08-17 00:48:00 +0000",
+      "nether_ruby_EquipmentSlot[name\u003dchestplate, category\u003dCOMBAT]": "2025-08-17 00:47:58 +0000"
+    },
+    "done": false
+  },
+  "betternether:recipes/combat/flaming_ruby_helmet": {
+    "criteria": {
+      "has_block.minecraft.sculk_catalyst": "2025-08-17 00:47:53 +0000"
     },
     "done": true
   },
