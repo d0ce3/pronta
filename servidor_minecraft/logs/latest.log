@@ -2234,3 +2234,39 @@ BCLib - The End  BiomeSource (30b1abe5)
 [23:06:08] [Server thread/INFO]: [STDOUT]: Finalizing energy block registration
 [23:06:27] [Server thread/INFO]: d0ce3_ claimed a grave belonging to d0ce3_ at -1380, 63, 222, minecraft:overworld
 [23:13:25] [Server thread/INFO]: [STDOUT]: Finalizing energy item registration
+[23:36:27] [Server thread/ERROR]: Caught unhandled exception : [null] java.lang.ClassCastException: class fuzs.enchantinginfuser.world.level.block.entity.InfuserBlockEntity cannot be cast to class dev.shadowsoffire.apotheosis.ench.table.ApothEnchantTile (fuzs.enchantinginfuser.world.level.block.entity.InfuserBlockEntity and dev.shadowsoffire.apotheosis.ench.table.ApothEnchantTile are in unnamed module of loader 'knot' @396a51ab)
+[23:36:27] [Server thread/ERROR]: See JadeErrorOutput.txt for more information
+[23:36:27] [Server thread/ERROR]: 
+java.lang.ClassCastException: class fuzs.enchantinginfuser.world.level.block.entity.InfuserBlockEntity cannot be cast to class dev.shadowsoffire.apotheosis.ench.table.ApothEnchantTile (fuzs.enchantinginfuser.world.level.block.entity.InfuserBlockEntity and dev.shadowsoffire.apotheosis.ench.table.ApothEnchantTile are in unnamed module of loader 'knot' @396a51ab)
+	at net.fabricmc.fabric.api.lookup.v1.block.BlockApiLookup.lambda$registerForBlockEntity$0(BlockApiLookup.java:221) ~[fabric-api-lookup-api-v1-1.6.37+1802ada577-faca8fadfcc7d5d3.jar:?]
+	at net.fabricmc.fabric.impl.lookup.block.BlockApiLookupImpl.lambda$registerForBlockEntities$1(BlockApiLookupImpl.java:160) ~[fabric-api-lookup-api-v1-1.6.37+1802ada577-faca8fadfcc7d5d3.jar:?]
+	at net.fabricmc.fabric.impl.lookup.block.BlockApiLookupImpl.find(BlockApiLookupImpl.java:90) ~[fabric-api-lookup-api-v1-1.6.37+1802ada577-faca8fadfcc7d5d3.jar:?]
+	at snownee.jade.util.CommonProxy.createItemStorageCache(CommonProxy.java:190) ~[Jade-1.20-Fabric-11.13.1.jar:?]
+	at snownee.jade.addon.universal.ItemStorageProvider.lambda$getGroups$3(ItemStorageProvider.java:261) ~[Jade-1.20-Fabric-11.13.1.jar:?]
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4868) ~[guava-31.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3533) ~[guava-31.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2282) ~[guava-31.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2159) ~[guava-31.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2049) ~[guava-31.1-jre.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3966) ~[guava-31.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4863) ~[guava-31.1-jre.jar:?]
+	at snownee.jade.addon.universal.ItemStorageProvider.getGroups(ItemStorageProvider.java:261) ~[Jade-1.20-Fabric-11.13.1.jar:?]
+	at snownee.jade.addon.universal.ItemStorageProvider.putData(ItemStorageProvider.java:182) ~[Jade-1.20-Fabric-11.13.1.jar:?]
+	at snownee.jade.addon.universal.ItemStorageProvider.appendServerData(ItemStorageProvider.java:228) ~[Jade-1.20-Fabric-11.13.1.jar:?]
+	at snownee.jade.addon.universal.ItemStorageProvider.appendServerData(ItemStorageProvider.java:54) ~[Jade-1.20-Fabric-11.13.1.jar:?]
+	at snownee.jade.impl.BlockAccessorImpl.lambda$handleRequest$0(BlockAccessorImpl.java:74) ~[Jade-1.20-Fabric-11.13.1.jar:?]
+	at net.minecraft.server.ServerTask.run(ServerTask.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:156) ~[server-intermediary.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.executeTask(MinecraftServer.java:782) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.executeTask(MinecraftServer.java:164) ~[server-intermediary.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.runOneTask(MinecraftServer.java:764) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.runTask(MinecraftServer.java:758) ~[server-intermediary.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:139) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.mixinextras$bridge$method_18857$297(MinecraftServer.java) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.wrapOperation$fjp000$modernfix$managedBlock(MinecraftServer.java:1823) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.runTasksTillTickEnd(MinecraftServer.java:743) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:675) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
