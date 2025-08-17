@@ -2233,3 +2233,4 @@ BCLib - The End  BiomeSource (30b1abe5)
 [23:05:54] [Netty Epoll Server IO #2/INFO]: [do_a_barrel_roll] Client of d0ce3_ accepted server config.
 [23:06:08] [Server thread/INFO]: [STDOUT]: Finalizing energy block registration
 [23:06:27] [Server thread/INFO]: d0ce3_ claimed a grave belonging to d0ce3_ at -1380, 63, 222, minecraft:overworld
+[23:13:25] [Server thread/INFO]: [STDOUT]: Finalizing energy item registration
