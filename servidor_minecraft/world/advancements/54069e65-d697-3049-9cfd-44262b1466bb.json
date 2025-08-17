@@ -23107,6 +23107,12 @@
     },
     "done": true
   },
+  "create:drain": {
+    "criteria": {
+      "0": "2025-08-17 01:13:54 +0000"
+    },
+    "done": true
+  },
   "betternether:recipes/tools/flaming_ruby_shovel": {
     "criteria": {
       "has_block.minecraft.sculk_catalyst": "2025-08-17 00:47:53 +0000"
