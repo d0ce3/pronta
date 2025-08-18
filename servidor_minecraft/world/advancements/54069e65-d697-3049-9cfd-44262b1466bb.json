@@ -23264,6 +23264,12 @@
     },
     "done": true
   },
+  "zenith:enchanting/hellshelf": {
+    "criteria": {
+      "hellshelf": "2025-08-18 00:59:46 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/asurine_pillar_from_stone_types_asurine_stonecutting": {
     "criteria": {
       "has_stone_types_asurine": "2025-08-17 23:48:17 +0000"
@@ -23348,6 +23354,12 @@
     },
     "done": true
   },
+  "zenith:enchanting/quanta50": {
+    "criteria": {
+      "enchanted_item": "2025-08-18 01:08:05 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/cut_asurine_brick_wall_from_stone_types_asurine_stonecutting": {
     "criteria": {
       "has_stone_types_asurine": "2025-08-17 23:48:17 +0000"
@@ -23399,6 +23411,18 @@
   "minecraft:recipes/misc/magenta_dye_from_lilac": {
     "criteria": {
       "has_lilac": "2025-08-18 00:57:56 +0000"
+    },
+    "done": true
+  },
+  "zenith:enchanting/30ench": {
+    "criteria": {
+      "enchanted_item": "2025-08-18 01:08:05 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/cryptic_eye": {
+    "criteria": {
+      "cryptic_eye": "2025-08-18 01:07:24 +0000"
     },
     "done": true
   },
