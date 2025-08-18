@@ -23258,6 +23258,12 @@
     },
     "done": true
   },
+  "techreborn:recipes/rolling_machine/cupronickel_heating_coil": {
+    "criteria": {
+      "has_nickel_ingot": "2025-08-18 00:02:49 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/asurine_pillar_from_stone_types_asurine_stonecutting": {
     "criteria": {
       "has_stone_types_asurine": "2025-08-17 23:48:17 +0000"
@@ -23330,9 +23336,21 @@
     },
     "done": true
   },
+  "techreborn:recipes/misc/crafting_table/nugget/nickel_nugget": {
+    "criteria": {
+      "has_nickel_ingot": "2025-08-18 00:02:49 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/cut_asurine_brick_wall_from_stone_types_asurine_stonecutting": {
     "criteria": {
       "has_stone_types_asurine": "2025-08-17 23:48:17 +0000"
+    },
+    "done": true
+  },
+  "techreborn:recipes/misc/crafting_table/storage_block/nickel_storage_block": {
+    "criteria": {
+      "has_nickel_ingot": "2025-08-18 00:02:49 +0000"
     },
     "done": true
   },
@@ -23342,9 +23360,21 @@
     },
     "done": true
   },
+  "techreborn:recipes/grinder/nickel_dust": {
+    "criteria": {
+      "has_tag_c_nickel_ingots": "2025-08-18 00:02:49 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/small_asurine_brick_slab_from_stone_types_asurine_stonecutting": {
     "criteria": {
       "has_stone_types_asurine": "2025-08-17 23:48:17 +0000"
+    },
+    "done": true
+  },
+  "techreborn:recipes/compressor/nickel_plate": {
+    "criteria": {
+      "has_tag_c_nickel_ingots": "2025-08-18 00:02:49 +0000"
     },
     "done": true
   },
